@@ -1,0 +1,207 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#container{
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 25;
+    /* background-color:rgb(196, 203, 203); */
+}
+#contain{   
+    /* border: 1px solid; */
+    height: 653px;
+    width: 800px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px 8px 2px #999999;
+    
+}
+.usersec{
+    border: 1px solid;
+    width: 800px;
+    height: 330px;
+    border-radius: 20px 20px 0px 0px;
+    display: flex;
+}
+#rowd{
+    /* border: 1px solid; */
+    width: 250px;
+    height: 330px;
+    border-radius: 20px 0px 0px 0px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+img{
+    width: 90px;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: flex;
+}
+h2, #h2{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+    font-style:normal;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: Righteous;
+    margin-bottom: 2px;
+}
+#h2{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-style:normal;
+    font-size: 18px;
+    color: whitesmoke;
+    font-family: Righteous;
+}
+
+#info{
+    /* border: 1px solid; */
+    width: 500px;
+    height: 330px;
+    margin-left: 250px;
+    background-color: whitesmoke;
+    border-radius: 0px 20px 0px 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+#info1{
+    /* border: 1px solid; */
+    width: 450px;
+    height: max-content;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: whitesmoke;
+    /* border-radius: 0px 20px 0px 0px; */
+    display: flex;
+    flex-direction: column;
+}
+
+#i1{
+    /* border: 1px solid; */
+    width: 250px;
+    height: 100px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+}
+
+.p{
+    font-family: Righteous;
+    font-size: medium;
+    margin-top: 0px;
+    margin-left: 30px;
+    color: #3a3a3a;
+}
+#booking{
+    border: 1px solid;
+    width: 800px;
+    height: 320px;
+    background-color: whitesmoke;
+    border-radius: 0px 0px 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+#history{
+    border: 1px solid;
+    width: 780px;
+    height: 160px;
+    border-radius: 0px 0px 20px 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0px;
+    overflow: scroll;
+    scrollbar-width: none;
+
+}
+#current{
+    border: 1px solid;
+    width: 780px;
+    height: 160px;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.h{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.history_car{
+    border: 1px solid;
+    width: 780;
+    height: max-content;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px ;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    box-shadow: 3px 3px 8px 2px #999999;
+    margin: 15px;
+}
+.current_car{
+    border: 1px solid;
+    width: 780;
+    height: max-content;
+    background-color: white;
+    border-radius: 10px 10px 10px 10px ;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    margin: 15px;
+    box-shadow: 3px 3px 8px 2px #999999;
+}
+.img{
+    border: 1px solid;
+    height: 100px;
+    width: 110px;
+    border-radius: 10px 0px 0px 10px ;
+    background-color: white;
+}
+.car_info{
+    border: 1px solid;
+    height: 100px;
+    width: 710px;
+    background-color: white;
+    border-radius: 0px 10px 10px 0px ;
+}
+#img1{
+    border: 0px;
+    border-radius: 0px;
+    height: 100px;
+    width: 110px;
+    border-radius: 10px 0px 0px 10px ;
+}
+#h3{
+    font-family: Righteous;
+    margin-left: 20px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+#cp{
+    font-family: Righteous;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    display: inline;
+}
+#cpr{
+    font-family: Righteous;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
